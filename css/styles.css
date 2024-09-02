@@ -1,0 +1,45 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para encabezados */
+h1 {
+    color: #e21111;
+}
+
+/* Estilos para párrafos */
+p {
+    color:yellow;
+    font-size: 34px;
+    line-height: 1.5;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para una clase específica */
+.La-clase {
+    background-color: #00ff37;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para un ID específico */
+#La-id {
+    font-size: 20px;
+    color: purple;
+    font-style: italic;
+    font-weight: bold;
+}
