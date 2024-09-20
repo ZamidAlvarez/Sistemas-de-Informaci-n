@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad-1</title>
+    <style>
+        body {
+            margin: 70px;
+            padding: 70px;
+        }
+        h1 {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .header {
+            display: none;
+            margin: 0%;
+        }
+        .Contenedor-1 {
+            color: white;
+            background-color: #474b4e;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 8px;  
+        }
+        .Caja-mayor {
+            border: 3px solid black; /* Borde negro delgado interno */
+            background-color: white; /* Fondo blanco dentro del borde */
+            
+            /* Borde adicional blanco y sombra */
+            box-shadow: 0 0 0 3px white, /* Borde blanco externo */
+                        0 0 0 13px black, /* Otro borde negro más grueso */
+                        0 0 10px rgba(0, 0, 0, 0.1); /* Sombra, Nota: no sirvio la sombra pero el codigo funciona con esto asi que lo dejo hay xd*/
+        }
+        .Cajas {
+            display: flex;
+            justify-content: center;
+        }
+        .caja-1, .caja-2, .caja-3, .caja-4 {
+            font-size: 13px;
+            padding-right: 23px;
+            color: white;
+        }
+        .Contenedor-2 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            background-color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Caja-mayor">
+        <header>
+            <div class="Contenedor-1">
+                <h1>Mi Página Atractiva</h1>
+                <div class="Cajas">
+                    <div class="caja-1">Inicio</div>
+                    <div class="caja-2">Acerca de</div>
+                    <div class="caja-3">Servicios</div>
+                    <div class="caja-4">Contacto</div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="Contenedor-2">
+            <h2>Contenido principal</h2>
+            <p>Bienvenido a mi página web atractiva y minimalista.
+               Aquí encontrarás<br> información interesante sobre diversos
+               temas. <a href="">¡Haz clic aquí!</a> 
+               <br>
+               <br>
+               Contenido 1
+               <br>
+               <br>
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+               Voluptate<br> sapiente aliquid, minus consequuntur dolorum fugit eligendi
+               quae?<br> Quidem esse velit vero, possimus, cum corrupti optio impedit ut<br> inventore neque animi. 
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Comida</title>
+    <style>
+        body {
+            background-color: #ff4a00;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ff4a00;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            text-align: center;
+            border-bottom: solid white 5px;
+        }
+        .Contenedor {
+            background-image: url(/img/istockphoto-1145578527-612x612.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 50px 50px;
+            justify-items: center;
+            justify-content: space-evenly;
+            margin: 1%;
+            padding: 1%;
+            height: 100%;
+
+        }
+        .Producto {
+            background-image: url(/img/Marco-Producto.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: rgb(236, 235, 235);
+            border: rgb(182, 181, 181) solid 1px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 20px;
+            width: 705%;
+            height: 80%;
+            text-align: left;
+        }
+        .Producto img {
+            width: 350px;
+            height: 200px;
+            border-radius: 70px 0 90px 30px;
+        }
+        .Producto h2 {
+            color: #ff4a00;
+        }
+        footer {
+            background-color: #ff4a00;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Nuestra<br> Landing Page de Comida</h1>
+    </header>
+    <div class="Contenedor">
+        <div class="Producto">
+            <img src="/img/Hamburguesa.jpeg" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>Descripción del producto. Lorem ipsum<br> dolor sit amet consectetur adipisicing<br> tenetur?.</p>
+            <a href="">Ver más</a>
+        </div>
+        <div class="Producto">
+            <img src="/img/Hamburguesa.jpeg" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>Descripción del producto. Lorem ipsum<br> dolor sit amet consectetur adipisicing<br> tenetur?.</p>
+            <a href="">Ver más</a>
+        </div>
+        <div class="Producto">
+            <img src="/img/Hamburguesa.jpeg" alt="Producto 3">
+            <h2>Producto 3</h2>
+            <p>Descripción del producto. Lorem ipsum<br> dolor sit amet consectetur adipisicing<br> tenetur?.</p>
+            <a href="">Ver más</a>
+        </div>
+        <div class="Producto">
+            <img src="/img/Hamburguesa.jpeg" alt="Producto 4">
+            <h2>Producto 4</h2>
+            <p>Descripción del producto. Lorem ipsum<br> dolor sit amet consectetur adipisicing<br> tenetur?.</p>
+            <a href="">Ver más</a>
+        </div>
+    </div>
+    <footer>
+        © 2023 Mi Landing Page Compleja
+    </footer>
+</body>
+</html>
